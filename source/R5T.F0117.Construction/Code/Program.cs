@@ -7,7 +7,11 @@ namespace R5T.F0117.Construction
     {
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Scripts.Instance.Initialize_GitRepository();
+            Scripts.Instance.Add_RemoteOrigin();
+            //Scripts.Instance.List_Remotes();
+            //Scripts.Instance.List_Branches();
+            Scripts.Instance.Pull_Initial();
         }
     }
 }
