@@ -1,10 +1,12 @@
 using System;
 using System.Linq;
+
 using LibGit2Sharp;
 
-using R5T.F0117.Extensions;
 using R5T.T0132;
 using R5T.T0180;
+
+using R5T.F0117.Extensions;
 
 
 namespace R5T.F0117
